@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Bio</title>
+    
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background: #EEE;
+        }
+
+        header {
+            background: #444;
+            color: #EEE;
+            text-align: center;
+            padding: 5px;
+            font-size: 12px;
+            margin: 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+        
+        main {
+            margin: 20px;
+            display: grid;
+            grid-template-columns: auto 1fr;
+        }
+
+        #home {
+            flex: auto;
+            float: left;
+            padding: 15px;
+        }
+
+        h2 {
+            color: #444;
+            padding: 5px;
+            margin-top: 0;
+        }
+
+        img {
+            float: left;
+            height: 200px;
+            padding: 0 10px 10px 0;
+            border-radius: 50%;
+        }
+
+        #contact-info {
+            flex: 1;
+            float: right;
+            min-width: 350px;
+            background: #CCC;
+            padding: 15px;
+            border-radius: 15px;
+            border: #999 solid 3px;
+        }
+
+        h3 {
+            margin-top: 0;
+        }
+
+        li a {
+            margin-left: 5px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        li a:visited {
+            color: #333;
+        }
+
+        li a:hover {
+            color: #888;
+        }
+
+        .locked, .locked:visited {
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Student Bio</h1>
+    </header>
+
+    <main>
+        <section id='home'>
+            <h2>Makai Post</h2>
+
+            <div>
+                <img src="./TMP - Profile Image.jpg" alt="">
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum et distinctio dolorum accusantium iste aliquid esse repellat quidem ullam, similique voluptatum. Temporibus voluptas porro molestiae blanditiis culpa fugit, asperiores consequatur.</p>
+
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            
+                <p>Curabitur faucibus sed tortor eget tincidunt. Vestibulum ac lectus faucibus, sodales nulla quis, fringilla sem. Quisque dapibus magna nulla, sit amet dictum massa finibus eu. Vestibulum in rhoncus massa. Donec eleifend pellentesque lectus, vel dignissim nunc sodales quis. In commodo aliquam dolor, ac ornare enim egestas vel. Donec fermentum vitae nunc in faucibus. In hac habitasse platea dictumst. Nullam lobortis ipsum sed viverra pellentesque. Integer aliquet pellentesque laoreet.</p>
+            
+                <p>Etiam et metus mattis mi porttitor pretium sit amet eget nibh. Curabitur tempus mattis turpis, non cursus ex porttitor quis. Pellentesque malesuada condimentum efficitur. Curabitur posuere est vel hendrerit dictum. Nam ut luctus augue. Morbi eleifend, erat eget porttitor dignissim, ipsum sapien finibus elit, at lacinia nisl nunc nec dolor. Aliquam ullamcorper efficitur lobortis. Ut nec mauris laoreet, sollicitudin est at, sodales massa. Nunc sit amet magna non nulla sagittis placerat at ut libero.</p>
+            
+            </div>
+        </section>
+
+        <section id='contact-info'>
+            <h3>Contact Info</h3>
+
+            <ul>
+                <li><strong>Email:</strong><a href="mailto:postmakai@gmail.com" target="_blank">postmakai@gmail.com</a></li>
+                <li><strong>Github:</strong><a href="https://github.com/ToMakPo" target="_blank">ToMakPo</a></li>
+                <li><strong>Portfolio:</strong><em><a href="#" class='locked'>coming soon</a></em></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
